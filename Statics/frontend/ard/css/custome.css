@@ -1,0 +1,360 @@
+.automation-and-smart-house .image img{
+    width: 100%;
+}
+
+.automation-and-smart-house .title {
+ padding: 6px 0;
+}
+
+.blog-section {
+    position: relative;
+    padding: 0px;
+}
+
+.news-block-four {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.news-block-four .image-column {
+    position: relative;
+}
+
+.news-block-four .image-column .image {
+    position: relative;
+}
+
+.news-block-four .image-column .image img {
+    position: relative;
+    width: 100%;
+    display: block;
+    border: 1px solid #fff;
+}
+
+.news-block-four .content-column {
+    position: relative;
+    /* padding: 40px 15px 25px; */
+}
+
+.news-block-four.style-two .content-column {
+    /* padding-top: 30px; */
+}
+
+.news-block-four .content-column h3 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+}
+
+.news-block-four .content-column h3 a {
+    color: #333333;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.news-block-four .content-column .post-meta {
+    position: relative;
+    margin-top: 12px;
+}
+.news-block-four .content-column .post-meta ul{
+    padding: 0;
+}
+.news-block-four .content-column .post-meta li {
+    position: relative;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1em;
+    padding-right: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    border-right: 1px solid #777777;
+}
+
+.news-block-four .content-column .post-meta li a {
+    color: #777777;
+}
+
+.news-block-four .content-column .post-meta li a .fa {
+    color: #00bff3;
+    margin-right: 5px;
+}
+
+.news-block-four .content-column .text {
+    color: #777777;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.news-block-four .content-column .post-meta li:last-child {
+    border-right: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidebar-side {
+    margin-bottom: 30px !important;
+}
+
+.sidebar .sidebar-widget {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.sidebar .search-box .form-group {
+    position: relative;
+    margin: 0px;
+}
+
+.sidebar .search-box .form-group input[type="text"], .sidebar .search-box .form-group input[type="search"] {
+    position: relative;
+    line-height: 24px;
+    border: 0;
+    padding: 0px 10px 10px 10px;
+    border-bottom: 1px solid #00bff3;
+    color: #1d1d1d;
+    background: transparent;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    outline: 0;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.sidebar .search-box .form-group button {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    border: 0;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    color: #929292;
+    background: none;
+    font-weight: normal;
+}
+.styled-pagination {
+    margin-top: 30px;
+}
+.styled-pagination li {
+    position: relative;
+    display: inline-block;
+    margin: 0px 5px 7px 0px;
+}
+.styled-pagination li a {
+    position: relative;
+    display: block;
+    line-height: 24px;
+    padding: 10px 5px;
+    font-size: 16px;
+    min-width: 46px;
+    color: #989898;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #989898;
+    background-color: #f4f4f4;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    font-family: 'Assistant', sans-serif;
+}
+.styled-pagination li a:hover, .styled-pagination li a.active {
+    color: #ffffff;
+    background: #00bff3;
+    border-color: #00bff3;
+}
+
+.sidebar-widget h2 {
+    position: relative;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.sidebar .list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar .list li {
+    position: relative;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.sidebar .list li a {
+    position: relative;
+    display: block;
+    color: #777777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 5px 15px;
+    padding-left: 0px;
+}
+.sidebar .list li a:hover {
+    color: #00bff3;
+}
+.sidebar .popular-posts .post {
+    position: relative;
+    font-size: 14px;
+    color: #666666;
+    padding: 0px 0px;
+    padding-left: 90px;
+    min-height: 64px;
+    margin-bottom: 30px;
+}
+.sidebar .popular-posts .post .post-thumb {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 64px;
+    border-radius: 50%;
+}
+.sidebar .popular-posts .post .post-thumb img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.sidebar .popular-posts .post h4 {
+    font-size: 13px;
+    margin: -7px 0px 5px;
+    font-weight: 300;
+    color: #333333;
+    /* text-transform: uppercase; */
+}
+.sidebar .popular-posts .post h4 a{
+    color: #333333;
+}
+.sidebar .popular-posts .post-info {
+    font-size: 12px;
+    color: #777777;
+    font-style: italic;
+}
+.sidebar .popular-posts .post-info .fa {
+    position: relative;
+    padding-right: 5px;
+    color: #e74c3c;
+    font-style: normal;
+}
+.sidebar .popular-tags a {
+    position: relative;
+    display: inline-block;
+    line-height: 24px;
+    padding: 4px 18px 4px;
+    margin: 0px 7px 10px 0px;
+    border: 1px solid #e2e2e2;
+    color: #777777;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 50px;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
+.sidebar .popular-tags a:hover {
+    background-color: #00bff3;
+    border-color: #00bff3;
+    color: #ffffff;
+}
+.block a{
+    color: #282828;
+    text-underline-position: none;
+}
+.news-block-five {
+    position: relative;
+    margin-bottom: 60px;
+}
+.news-block-five .inner-box {
+    position: relative;
+}
+.news-block-five .inner-box .image-box {
+    position: relative;
+}
+.news-block-five .inner-box .image-box img {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.news-block-five .inner-box .lower-content {
+    position: relative;
+    margin: 0px 30px;
+    margin-top: -55px;
+    background-color: #ffffff;
+}
+.news-block-five .inner-box .lower-content .inner {
+    position: relative;
+    padding: 25px;
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(236,236,236,1);
+    -moz-box-shadow: 0px 0px 26px 0px rgba(236,236,236,1);
+    box-shadow: 0px 0px 26px 0px rgba(236,236,236,1);
+}
+.news-block-five .inner-box .lower-content .inner .post-meta {
+    position: relative;
+    margin-top: 10px;
+}
+.news-block-five .inner-box .lower-content .inner .post-meta ul{
+    padding:  0;
+    margin: 0;
+}
+.news-block-five .inner-box .lower-content .inner .post-meta li {
+    position: relative;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1em;
+    color: #777777;
+    padding-right: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    border-right: 1px solid #777777;
+}
+.news-block-five .inner-box .lower-content .inner .post-meta li .fa {
+    color: #e74c3c;
+    margin-right: 5px;
+}
+.news-block-five .inner-box .lower-content .inner .post-meta li:last-child {
+    border-right: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.news-block-five .inner-box .lower-content .inner .text {
+    position: relative;
+    color: #777777;
+    font-size: 15px;
+    line-height: 1.8em;
+    margin-top: 20px;
+}
+.blog-section .post-share-options {
+    position: relative;
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+.blog-section .post-share-options .tags {
+    padding-top: 2px;
+}
+.blog-section .post-share-options .tags a {
+    position: relative;
+    color: #777777;
+    font-size: 14px;
+}
+/*# sourceMappingURL=custome.css.map */

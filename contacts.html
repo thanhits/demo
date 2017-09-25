@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/Statics/frontend/ard/images/favicon.ico">
+    <title>Ard - Index</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/Statics/frontend/ard/css/animate.min.css" rel="stylesheet">
+    <link href="/Statics/frontend/ard/css/ard-theme.min.css" rel="stylesheet">
+    <link href="/Statics/frontend/ard/css/custome.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/Statics/frontend/ard/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="/Statics/frontend/ard/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/Statics/frontend/ard/js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="paralax" id="top">
+    <!-- To disable parallax mode, remove the parallax class from the body tag -->
+    <a href="#top" class="top"></a>
+    <div class="header">
+        <div class="pagenavburger visible-xs">
+            <div id="hamburger"><span></span><span></span><span></span><span></span></div>
+        </div>
+        <div class="logo"><a href="index.html"><img src="/Statics/frontend/ard/images/logo.png" alt="#"></a></div>
+        <div class="phones">
+            <a href="tel:1234569000" class="number">123-456-9000</a>
+            <a href="#" class="btn btn-primary hidden-sm hidden-xs" type="button" data-toggle="modal" data-target="#reqCallModal">Yêu cầu tư vấn</a>
+        </div>
+        <div class="menutop">
+            <ul>
+                <li><a href="product.html">Sản phẩm</a></li>
+                <li>
+                    <a href="service.html">Dịch vụ</a>
+                    <ul>
+                        <li><a href="service-detail.html">Tư vấn thiết kế(Miễn phí)</a></li>
+                        <li><a href="service-detail.html">Cải tạo nội thất</a></li>
+                        <li><a href="service-detail.html">Thi công nội thất</a></li>
+                    </ul>
+                </li>
+                <li><a href="project.html">Dự án</a></li>
+                <li><a href="blog.html">Tư vấn</a></li>
+                <li><a href="discount.html">Giảm giá</a></li>
+                <li><a href="contacts.html">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottompageborder"></div>
+    <div class="wrap index-wrap">
+        <div class="container-fluid">
+
+            <div class="contacts-body">
+                <div class="wishes">
+                    <div class="inner-wrap">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Trang chủ</a></li>
+                            <li class="active">Liên hệ</li>
+                        </ol>
+                        <div class="left">
+                            <div class="title">Thông tin liên hệ</div>
+                            <div class="desc">Join us!<br>In social networks we publish new projects and interesting news.</div>
+                            <div class="info">
+                                <div class="adr">123 - Đâu đó - Không rõ</div>
+                                <div class="phones">
+                                    <a href="#">123-456-9000</a>
+                                </div>
+                                <div class="mails">
+                                    <a href="#">i.coder.tayto@gmail.com</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="right">
+                            <form action="#">
+                                <div class="form-group left">
+                                    <input type="text" class="form-control" value="" placeholder="Your name" required="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" value="" placeholder="Your e-mail" required="">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" value="" placeholder="Message" required=""></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Gửi</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="info">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="p">
+                                    Địa chỉ<br>
+                                    <span>123 Hoàn Kiếm - Hà Nội</span>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="p">
+                                    Số điện thoại<br>
+                                    <span>04 4561 237 89</span></div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="p">Email<br>
+                                    <a href="#">clients@example.com</a></div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="p">Copyright © 2017 Nội thất ARD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.footer -->
+        </div>
+    </div>
+
+    <!-- reqCallModal -->
+    <div class="modal fade" id="reqCallModal" tabindex="-1" role="dialog" aria-labelledby="reqCallModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form action="#">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-center" id="reqCallModalLabel">REQUEST A CALL</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" pattern="^/d{4}-/d{3}-/d{4}$" class="form-control" id="phone" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Notes</label>
+                            <input type="text" class="form-control" id="notes" placeholder="When should you call?">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- orderCallModal -->
+    <div class="modal fade" id="orderCallModal" tabindex="-1" role="dialog" aria-labelledby="orderCallModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form action="#">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-center" id="orderCallModalLabel">ORDER PROJECT</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="name">Product</label>
+                            <blockquote>
+                                <p><b>draft</b> design project</p>
+                            </blockquote>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" pattern="^/d{4}-/d{3}-/d{4}$" class="form-control" id="phone" required="">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="/Statics/frontend/ard/js/jquery.min.js"><//script>')
+    </script>
+    <script src="/Statics/frontend/ard/js/device.min.js"></script>
+    <script src="/Statics/frontend/ard/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/Statics/frontend/ard/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="/Statics/frontend/ard/js/owl.carousel.min.js"></script>
+    <script src="/Statics/frontend/ard/js/main.js"></script>
+
+    <!-- For each page connect their own file -->
+
+    <script src="/Statics/frontend/ARD/js/index/main.js"></script>
+    <!-- <script src="/Statics/frontend/ard/js/index/paralax.js"></script> -->
+
+    <!-- <script src="/Statics/frontend/ard/js/product/jquery.colorbox-min.js"></script> -->
+    <!-- <script src="/Statics/frontend/ard/js/product/main.js"></script> -->
+    <!-- <script src="/Statics/frontend/ard/js/product/paralax.js"></script> -->
+</body>
+
+</html>
